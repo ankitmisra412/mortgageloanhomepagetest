@@ -124,7 +124,7 @@ public class MortageLoanHomePageSteps {
 		 	wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#analysisDiv > table > thead > tr:nth-child(1) > td")));
 		 	WebElement prinicipalcolumnvalue = driver.findElement(By.cssSelector("#analysisDiv > table > thead > tr:nth-child(1) > td"));	
 		 	String prinicipalcolumnvaluetext= prinicipalcolumnvalue.getText();
-	    	Assert.assertEquals(prinicipalcolumnvaluetext, prinicipalvalue); 
+	    		Assert.assertEquals(prinicipalcolumnvaluetext, prinicipalvalue); 
 	    	
 	    }
 	 
@@ -133,7 +133,7 @@ public class MortageLoanHomePageSteps {
 		 	
 		 	WebElement loantocolumnvalue = driver.findElement(By.cssSelector("#analysisDiv > table > thead > tr:nth-child(4) > td"));	
 		 	String loantocolumnvaluetext=loantocolumnvalue.getText();
-	    	Assert.assertEquals(loantocolumnvaluetext, loantovalue); 
+	    		Assert.assertEquals(loantocolumnvaluetext, loantovalue); 
 	    	
 	    }
 	 
@@ -142,7 +142,7 @@ public class MortageLoanHomePageSteps {
 		 	
 		 	WebElement monthlycolumnpayment = driver.findElement(By.cssSelector("#analysisDiv > table > thead > tr:nth-child(7) > td"));	
 		 	String monthlycolumnpaymenttext= monthlycolumnpayment.getText();
-	    	Assert.assertEquals(monthlycolumnpaymenttext, monthlypayment); 
+	    		Assert.assertEquals(monthlycolumnpaymenttext, monthlypayment); 
 	    	
 	    }
 }
