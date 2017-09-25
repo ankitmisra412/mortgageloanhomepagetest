@@ -26,47 +26,6 @@ public class MortageLoanHomePageSteps {
 	
 	WebDriver driver;
 	
-//	//HOM MUCH WILL MY PAYMENTS BE WIDGET ELEMENTS
-//	
-//		@FindBy(how=How.CSS, using="#calculator_widget_amount")
-//		private WebElement loanamountTextBox;
-//
-//		@FindBy(how=How.CSS, using="#calculator_widget_interest")
-//		public static WebElement interestrateTextBox;
-//
-//		@FindBy(how=How.CSS, using="#calculator_widget_Length")
-//		public static WebElement lengthTextBox;
-//
-//		@FindBy(how=How.CSS, using="#calculator_widget_HomeValue")
-//		public static WebElement homevalueTextBox;
-//
-//		@FindBy(how=How.CSS, using="#wizard-pager > li:nth-child(2) > a")
-//		public static WebElement nextButton;
-//		
-//		//HOM MUCH WILL MY PAYMENTS BE - TAXES AND INSURANCE WIDGET ELEMENTS
-//		
-//		@FindBy(how=How.CSS, using="#calculator_widget_PropertyTaxes")
-//		public static WebElement propertytaxesTextBox;
-//		
-//		@FindBy(how=How.CSS, using="#calculator_widget_Insurance")
-//		public static WebElement annualinsuranceTextBox;
-//		
-//		@FindBy(how=How.CSS, using="#calculator_widget_PMI")
-//		public static WebElement annualpmiTextBox;
-//		
-//		@FindBy(how=How.CSS, using="#wizard-pager > li.next.finish > a")
-//		public static WebElement showresultButton;
-//		
-//		//YOUR MONTHLY PAYMENTS WILL BE WIDGET
-//		
-//		@FindBy(how=How.CSS, using="#analysisDiv > table > thead > tr:nth-child(1) > td")
-//		public static WebElement monthlyprincipalresultTableValue;
-//		
-//		@FindBy(how=How.CSS, using="#analysisDiv > table > thead > tr:nth-child(4) > td")
-//		public static WebElement loantvalueratioTableValue;
-//		
-//		@FindBy(how=How.CSS, using="#analysisDiv > table > thead > tr:nth-child(7) > td")
-//		public static WebElement totalmonthlyPaymentsTableValue;
 	
 
 	 @Given("^I open home mortgage loan home page$")
